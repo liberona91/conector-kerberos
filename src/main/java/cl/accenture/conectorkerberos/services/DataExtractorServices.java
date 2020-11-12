@@ -24,7 +24,7 @@ public class DataExtractorServices {
 	@Autowired
 	private TermConditionsRepository termConditionsRepository;
 	
-    public String getData () {
+    public List<TermsConditions> getData () {
 		logger.info("getDataServices - init");
 		
 		System.out.println("getDataServices - OK");
@@ -37,6 +37,6 @@ public class DataExtractorServices {
 			System.out.println("for termsConditions :"+termsConditions.getTitulo());
 		};
 		
-        return "getDataServices  OK";
+        return listTerms;
     }
 }
