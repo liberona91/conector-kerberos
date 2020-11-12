@@ -24,4 +24,10 @@ public class ConectorController {
 		return "Hola que tal";
 	}
 	
+	
+	public String connectToEdge2() {
+		
+		return "Hola que tal";
+	}
+	
 }
